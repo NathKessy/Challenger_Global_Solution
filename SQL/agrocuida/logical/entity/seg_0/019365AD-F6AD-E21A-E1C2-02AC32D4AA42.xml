@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="019365AD-F6AD-E21A-E1C2-02AC32D4AA42" name="T_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:05:05 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="43A9FC6B-DE96-D64C-62A9-6C7C5D6428BB">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:05:16 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cidade" id="D4B90FCC-A379-044C-920A-0AB22AB763BC">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 23:45:55 UTC</createdTime>
+<generatorID>3A7E5552-4430-AE6C-7A9B-25E07F8B2734</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<referedAttribute>1EE662C1-D983-64B2-BF9E-11EB5CF4594F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="2895FBA5-5E92-765D-554F-7A7C4691658D">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 23:46:04 UTC</createdTime>
+<generatorID>B5434CB1-E447-E1E8-655A-97AC019A1D8C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<referedAttribute>677E969A-C4E0-31EC-9272-948CD98D1893</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="6652BF43-FEE3-7BE4-2206-C60C01471C8A">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 23:46:14 UTC</createdTime>
+<generatorID>C5812A6C-A63D-CAF7-AA76-B96DF56FB95C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<referedAttribute>780A1F4B-07B3-1DC7-1576-9823BA0249F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="6DDC940F-5098-EA9A-2198-739A7EBF2771">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:05:29 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="7EB21FD0-AD82-4F9F-7CA0-40502955E08A">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:05:49 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="82E3A332-7A42-9973-3787-1B578117DF8B">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:06:02 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="4D95AF5A-6F90-4872-4001-E83E5DBD8544">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:28:12 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="597FEA82-2FF6-91FB-EBE0-089DE1973E3A">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:29:22 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="53615EC1-FB4E-44B5-D198-D75282F29E51" name="T_ENDERECO PK">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 21:05:24 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43A9FC6B-DE96-D64C-62A9-6C7C5D6428BB</attributeRef>
+<attributeRef>D4B90FCC-A379-044C-920A-0AB22AB763BC</attributeRef>
+<attributeRef>2895FBA5-5E92-765D-554F-7A7C4691658D</attributeRef>
+<attributeRef>6652BF43-FEE3-7BE4-2206-C60C01471C8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

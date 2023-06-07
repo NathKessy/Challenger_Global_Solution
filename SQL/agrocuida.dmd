@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="agrocuida" id="B1827101-F917-B9E1-A09B-17D0F1F07508" version="3.5">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 19:45:49 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B1827101-F917-B9E1-A09B-17D0F1F07508</designId>
+</OSDM_Design>

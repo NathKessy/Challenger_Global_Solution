@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E534E80F-9ACA-7C23-C5E1-4E6C93C156A6" name="T_USUARIO_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>415AC18E-BA1D-704C-778C-A32F7212A7E3</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUARIO_id_usuario" id="CC312E62-7676-A328-ED04-8D1B03465FAF">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>01EDEAC5-27AD-3556-13A7-6271575D0759</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6BBC10A-F2A9-ED10-83DA-A156FE3033F6" referredColumn="94AB7D76-EEBF-179F-067B-4505010CDB82"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_id_endereco" id="09DF3F2A-325D-DE6D-F1D7-242198B1AB25">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>10684D06-416B-C7AC-1297-4ECF71D3934A</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB8C69F-CDC4-7005-864E-5AA5947C714C" referredColumn="5E16A6AA-8656-2511-E76A-6DF90DD690B8"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_T_CIDADE_id_cidade" id="B2F5D7A2-C509-D59F-39DF-22055DB2900D">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>8493F377-6A2C-805D-2D66-24B8418F9102</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB8C69F-CDC4-7005-864E-5AA5947C714C" referredColumn="918FEE95-D681-CF65-82B8-C86A48DAA54B"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_T_ESTADO_id_estado" id="BD44A62E-8EDE-FA13-0B11-05FC5BACAECA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>3C5E105E-EF1F-3F2C-CEC2-233C75F1066E</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB8C69F-CDC4-7005-864E-5AA5947C714C" referredColumn="E31DBE7F-8E4F-0994-7904-C0C9E3467FA0"/>
+</associations>
+</Column>
+<Column name="T_ENDERECO_T_PAIS_id_pais" id="9E9F6358-7CAE-DB07-C850-D9F0846A5827">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>37680707-CF46-C11E-8CAD-270CD965E35A</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEB8C69F-CDC4-7005-864E-5AA5947C714C" referredColumn="53C30234-DB3B-70FF-0A52-E323006E5A93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E530E7D-901C-1C92-4A75-C1CBF58B2D9E" name="PK_T_USUARIO_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>D4EA4F5F-405C-2095-FD34-EE393CB52CF5</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC312E62-7676-A328-ED04-8D1B03465FAF"/>
+<colUsage columnID="09DF3F2A-325D-DE6D-F1D7-242198B1AB25"/>
+<colUsage columnID="B2F5D7A2-C509-D59F-39DF-22055DB2900D"/>
+<colUsage columnID="BD44A62E-8EDE-FA13-0B11-05FC5BACAECA"/>
+<colUsage columnID="9E9F6358-7CAE-DB07-C850-D9F0846A5827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C4BCFD5-8C78-BE44-A2D6-4BC1BC704EB4" name="FK_ID_USUARIO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>1BA3DD1A-E95E-90E7-11BD-B1804B62E0DC</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC312E62-7676-A328-ED04-8D1B03465FAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F2AB643-10CF-8EB6-BFBF-B74845DECE01" name="FK_ID_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>A3828585-94C6-1876-0845-E45A297A4120</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09DF3F2A-325D-DE6D-F1D7-242198B1AB25"/>
+<colUsage columnID="B2F5D7A2-C509-D59F-39DF-22055DB2900D"/>
+<colUsage columnID="BD44A62E-8EDE-FA13-0B11-05FC5BACAECA"/>
+<colUsage columnID="9E9F6358-7CAE-DB07-C850-D9F0846A5827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

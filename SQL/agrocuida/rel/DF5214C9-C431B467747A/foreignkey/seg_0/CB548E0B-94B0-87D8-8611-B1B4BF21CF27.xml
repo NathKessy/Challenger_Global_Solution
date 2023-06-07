@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB548E0B-94B0-87D8-8611-B1B4BF21CF27" containerWithKeyObject="C3B29B73-7596-501A-0298-DE4A0C2FD17A" localFKIndex="A71F340A-C84C-B43C-05AC-C7AECE7DE9B6" name="FK_ID_ESTUFAv2">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>51E9EB9D-6550-95B7-7F3A-4F2B0F6C6F9C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<referredTableLongName>T_ESTUFA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F584C518-1503-7845-AFAE-A0F96AD28BA8</referredTableID>
+<keyObject>F99564F5-5D6B-6C61-C96E-25E23D5867E3</keyObject>
+<referredKeyID>F99564F5-5D6B-6C61-C96E-25E23D5867E3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estuda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

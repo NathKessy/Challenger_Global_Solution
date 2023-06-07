@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A1F6559-AA9C-54D1-3992-FC2ADF1EE1C2" name="T_ESTADO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>8766CCA9-1CB4-CD64-2212-1519E3400DCE</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="5E7CA24E-AAC1-B708-8695-76BDBCAC504E">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>677E969A-C4E0-31EC-9272-948CD98D1893</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="E5B2953D-7029-0E43-A5EB-901B218977B1">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>345BAF0F-B862-46EB-DC0A-5E0E4561A474</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_estado" id="217E7D21-2B1E-8F2A-EEC9-D911F482EEC8">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>BE555A0B-B512-2E01-4F9F-7120947732D9</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="814B55F4-594B-DE36-1CF3-EFD1DDEFBE17" name="PK_T_ESTADO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>50D74806-D0E9-551C-7550-6E792C13B425</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E7CA24E-AAC1-B708-8695-76BDBCAC504E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

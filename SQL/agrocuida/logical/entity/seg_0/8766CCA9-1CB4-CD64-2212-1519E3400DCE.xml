@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8766CCA9-1CB4-CD64-2212-1519E3400DCE" name="T_ESTADO">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:49:53 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado" id="677E969A-C4E0-31EC-9272-948CD98D1893">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:50:07 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="345BAF0F-B862-46EB-DC0A-5E0E4561A474">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:50:38 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_estado" id="BE555A0B-B512-2E01-4F9F-7120947732D9">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:50:52 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50D74806-D0E9-551C-7550-6E792C13B425" name="T_ESTADO PK">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:50:13 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>677E969A-C4E0-31EC-9272-948CD98D1893</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

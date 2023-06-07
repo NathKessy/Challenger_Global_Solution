@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAE2BF7B-409D-5914-0C69-3B6578758DC8" name="T_CIDADE">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:49:05 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cidade" id="1EE662C1-D983-64B2-BF9E-11EB5CF4594F">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:49:27 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cidade" id="37FBD5B5-D75F-C711-97D4-AB782369DE67">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:49:40 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB628BDC-6488-328D-1AD8-D46A439134AC" name="T_CIDADE PK">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 20:49:40 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EE662C1-D983-64B2-BF9E-11EB5CF4594F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

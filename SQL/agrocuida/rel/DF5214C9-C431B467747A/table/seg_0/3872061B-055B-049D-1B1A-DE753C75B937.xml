@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3872061B-055B-049D-1B1A-DE753C75B937" name="T_ORIENTACAO_IA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>9049F6B2-D1B5-1534-6784-FE5727FB11C5</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_ORIENTACAO_id_orientacao" id="8C8833A8-D610-B1DA-D526-153024321410">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>C1E60609-2A71-7FB6-184A-DAEE3C604143</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33A43622-70B0-CD06-FB50-857561CA77E3" referredColumn="34C0F134-09E7-994F-A48C-5637FEEE0ACC"/>
+</associations>
+</Column>
+<Column name="T_INTERACAO_IA_id_ia" id="DBB49BBE-DA3C-3DEF-BE11-1981A53702FB">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>F12AB0E6-19D3-1399-D9EF-9C2D5F2ABCF0</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB12CF98-F5D8-4E30-D989-1464C178F036" referredColumn="80905873-4BD0-DA35-FBBD-69E118D8D708"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A69C0F50-02E5-9FDF-5CD5-6BCF7FB2D51A" name="PK_T_ORIENTACAO_IA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>B7F4FC0B-E9EF-5FDC-57CB-91A818CFF4D5</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8833A8-D610-B1DA-D526-153024321410"/>
+<colUsage columnID="DBB49BBE-DA3C-3DEF-BE11-1981A53702FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="511DC603-E211-E659-8B26-2B941E77372B" name="FK_ID_ORIENTACAOv1">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>B7243B13-12CE-BF26-DFCC-7509EE0B437B</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8833A8-D610-B1DA-D526-153024321410"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23105D64-D27A-E343-70ED-EC7C8F446964" name="FK_ID_INTERACAO_IA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>FC1A4370-A8C3-C703-CEF1-31552576741F</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB49BBE-DA3C-3DEF-BE11-1981A53702FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

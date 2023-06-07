@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3B29B73-7596-501A-0298-DE4A0C2FD17A" name="T_PLANTIO_T_ESTUFA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>2C2DBAE2-8296-2035-60AE-7F8B870BD223</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_ESTUFA_id_estuda" id="46092D85-4006-6037-29AF-8BC80FED17D1">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>B50534D9-287E-CE3D-B8D2-98BEE4EFC287</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB548E0B-94B0-87D8-8611-B1B4BF21CF27" referredColumn="A094CC4A-0D51-4573-41AD-25BF5005B46A"/>
+</associations>
+</Column>
+<Column name="T_PLANTIO_id_plantio" id="FC47ADA3-17E4-2981-B08A-6C851F4DDBB2">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>661A9E2B-3C5E-440B-66EC-81C43FEF4241</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AD7B9EC-F743-6C24-4BA6-AF3392487403" referredColumn="D7258FC5-71E9-AF27-0320-7C08EC92A022"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94AC77CC-3AC7-E747-9BF5-6CEFBB176010" name="PK_T_PLANTIO_T_ESTUFA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>5895D0D9-82B0-ECA2-36A2-A34FF2E541A5</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46092D85-4006-6037-29AF-8BC80FED17D1"/>
+<colUsage columnID="FC47ADA3-17E4-2981-B08A-6C851F4DDBB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A71F340A-C84C-B43C-05AC-C7AECE7DE9B6" name="FK_ID_ESTUFAv2">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>51E9EB9D-6550-95B7-7F3A-4F2B0F6C6F9C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46092D85-4006-6037-29AF-8BC80FED17D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCF147C0-16C2-BE4A-56DD-475720B36125" name="FK_ID_PLANTIOv2">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>F23BD128-DB00-D457-7DC9-0D98A9D3245C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC47ADA3-17E4-2981-B08A-6C851F4DDBB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EB12CF98-F5D8-4E30-D989-1464C178F036" containerWithKeyObject="3872061B-055B-049D-1B1A-DE753C75B937" localFKIndex="23105D64-D27A-E343-70ED-EC7C8F446964" name="FK_ID_INTERACAO_IA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>FC1A4370-A8C3-C703-CEF1-31552576741F</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<referredTableLongName>T_INTERACAO_IA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>325C5D44-CA85-1CAE-2DBA-0DBC49862D13</referredTableID>
+<keyObject>2E1E9638-7588-B3EE-C9D3-7DA800B8B224</keyObject>
+<referredKeyID>2E1E9638-7588-B3EE-C9D3-7DA800B8B224</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

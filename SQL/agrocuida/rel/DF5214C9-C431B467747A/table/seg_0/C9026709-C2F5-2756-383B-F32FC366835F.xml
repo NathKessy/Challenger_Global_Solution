@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9026709-C2F5-2756-383B-F32FC366835F" name="T_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>019365AD-F6AD-E21A-E1C2-02AC32D4AA42</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="5E16A6AA-8656-2511-E76A-6DF90DD690B8">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>43A9FC6B-DE96-D64C-62A9-6C7C5D6428BB</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CIDADE_id_cidade" id="918FEE95-D681-CF65-82B8-C86A48DAA54B">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>D4B90FCC-A379-044C-920A-0AB22AB763BC</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D3A1EA4-958D-2632-5206-93563D1D397F" referredColumn="BDD2DDDF-A8BA-3C5E-136D-32D49587AC08"/>
+</associations>
+</Column>
+<Column name="T_ESTADO_id_estado" id="E31DBE7F-8E4F-0994-7904-C0C9E3467FA0">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>2895FBA5-5E92-765D-554F-7A7C4691658D</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CBB3511-1E70-42DA-CCEE-32764B6C0BE6" referredColumn="5E7CA24E-AAC1-B708-8695-76BDBCAC504E"/>
+</associations>
+</Column>
+<Column name="T_PAIS_id_pais" id="53C30234-DB3B-70FF-0A52-E323006E5A93">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>6652BF43-FEE3-7BE4-2206-C60C01471C8A</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DED51DD2-EF60-93A7-4346-EF74E567D86A" referredColumn="4D030B83-C163-FFAC-F25B-3CDCA88EA5C0"/>
+</associations>
+</Column>
+<Column name="logradouro" id="946519AF-885F-C755-20C5-6A0966A78E73">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>6DDC940F-5098-EA9A-2198-739A7EBF2771</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="33F8CCEE-85F7-FC6A-463F-4D55E8129A60">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>7EB21FD0-AD82-4F9F-7CA0-40502955E08A</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="5D5DDB2E-545D-6466-34B3-734E6E870055">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>82E3A332-7A42-9973-3787-1B578117DF8B</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complemento" id="D450D37F-7D9C-98BA-5889-A062DF216B73">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>4D95AF5A-6F90-4872-4001-E83E5DBD8544</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="FE049C46-8655-E502-1180-C212B5F1BC04">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>597FEA82-2FF6-91FB-EBE0-089DE1973E3A</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="314990C5-1BF9-4877-CF10-5A643D81989E" name="PK_T_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>53615EC1-FB4E-44B5-D198-D75282F29E51</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E16A6AA-8656-2511-E76A-6DF90DD690B8"/>
+<colUsage columnID="918FEE95-D681-CF65-82B8-C86A48DAA54B"/>
+<colUsage columnID="E31DBE7F-8E4F-0994-7904-C0C9E3467FA0"/>
+<colUsage columnID="53C30234-DB3B-70FF-0A52-E323006E5A93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0C46148-A162-9F5A-5D4D-5ABD18B02BEF" name="FK_ID_CIDADE">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>3A7E5552-4430-AE6C-7A9B-25E07F8B2734</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="918FEE95-D681-CF65-82B8-C86A48DAA54B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF281D47-7D21-7C50-2523-A499DEE8D086" name="FK_ID_ESTADO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>B5434CB1-E447-E1E8-655A-97AC019A1D8C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E31DBE7F-8E4F-0994-7904-C0C9E3467FA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73922392-6577-8941-57F8-C3DDF7CB8AF5" name="FK_ID_PAIS">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>C5812A6C-A63D-CAF7-AA76-B96DF56FB95C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53C30234-DB3B-70FF-0A52-E323006E5A93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

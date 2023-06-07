@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="3A7E5552-4430-AE6C-7A9B-25E07F8B2734">
+<createdBy>diast</createdBy>
+<createdTime>2023-05-31 23:45:55 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<sourcePk>DB628BDC-6488-328D-1AD8-D46A439134AC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DAE2BF7B-409D-5914-0C69-3B6578758DC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>019365AD-F6AD-E21A-E1C2-02AC32D4AA42</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33A43622-70B0-CD06-FB50-857561CA77E3" containerWithKeyObject="3872061B-055B-049D-1B1A-DE753C75B937" localFKIndex="511DC603-E211-E659-8B26-2B941E77372B" name="FK_ID_ORIENTACAOv1">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>B7243B13-12CE-BF26-DFCC-7509EE0B437B</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<referredTableLongName>T_ORIENTACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED2B1EFE-4836-1466-3586-824FB813114D</referredTableID>
+<keyObject>0D009F99-8C41-20E1-ADA8-43475950708B</keyObject>
+<referredKeyID>0D009F99-8C41-20E1-ADA8-43475950708B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_orientacao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

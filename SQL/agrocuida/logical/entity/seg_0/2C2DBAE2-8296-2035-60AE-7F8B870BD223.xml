@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C2DBAE2-8296-2035-60AE-7F8B870BD223" name="T_PLANTIO_T_ESTUFA">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-01 23:01:39 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estuda" id="B50534D9-287E-CE3D-B8D2-98BEE4EFC287">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-01 23:03:29 UTC</createdTime>
+<generatorID>51E9EB9D-6550-95B7-7F3A-4F2B0F6C6F9C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<referedAttribute>40A45C44-8061-9FD0-6814-3C5E02C6AB5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plantio" id="661A9E2B-3C5E-440B-66EC-81C43FEF4241">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-01 23:03:36 UTC</createdTime>
+<generatorID>F23BD128-DB00-D457-7DC9-0D98A9D3245C</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<referedAttribute>A44F0B4C-0C38-46F3-7719-406DB80778F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5895D0D9-82B0-ECA2-36A2-A34FF2E541A5" name="T_PLANTIO_T_ESTUFA PK">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-01 23:03:29 UTC</createdTime>
+<ownerDesignName>agrocuida</ownerDesignName>
+<engineerTo>
+<item key="DF5214C9-180A-D717-8795-C431B467747A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B50534D9-287E-CE3D-B8D2-98BEE4EFC287</attributeRef>
+<attributeRef>661A9E2B-3C5E-440B-66EC-81C43FEF4241</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

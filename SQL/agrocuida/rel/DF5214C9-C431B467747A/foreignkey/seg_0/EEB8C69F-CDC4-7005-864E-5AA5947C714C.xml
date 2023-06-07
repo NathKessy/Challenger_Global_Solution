@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEB8C69F-CDC4-7005-864E-5AA5947C714C" containerWithKeyObject="E534E80F-9ACA-7C23-C5E1-4E6C93C156A6" localFKIndex="8F2AB643-10CF-8EB6-BFBF-B74845DECE01" name="FK_ID_ENDERECO">
+<createdBy>diast</createdBy>
+<createdTime>2023-06-02 15:33:38 UTC</createdTime>
+<generatorID>A3828585-94C6-1876-0845-E45A297A4120</generatorID>
+<ownerDesignName>agrocuida</ownerDesignName>
+<referredTableLongName>T_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C9026709-C2F5-2756-383B-F32FC366835F</referredTableID>
+<keyObject>314990C5-1BF9-4877-CF10-5A643D81989E</keyObject>
+<referredKeyID>314990C5-1BF9-4877-CF10-5A643D81989E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_endereco,T_CIDADE_id_cidade,T_ESTADO_id_estado,T_PAIS_id_pais</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
