@@ -20,7 +20,7 @@ Nosso sistema consiste em uma plataforma móvel que conecta usuários interessad
  > _Modelo Logico_
  ![alt text](https://github.com/NathKessy/Challenger_Global_Solution/blob/0295cb8c214eece56205edefc978e8684b27c563/SQL/Modelo%20L%C3%B3gico.png)
  
-  > _Modelo Fisico
+  > _Modelo Fisico_
  ![alt text](https://github.com/NathKessy/Challenger_Global_Solution/blob/0295cb8c214eece56205edefc978e8684b27c563/SQL/Modelo%20F%C3%ADsico.png)
 
 ## Tecnologia
